@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/gorilla/websocket"
+	"github.com/Akrlrd3306/SES/pkg/websocket"
 )
 
 var upgrader = websocket.Upgrader{
